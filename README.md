@@ -19,7 +19,8 @@ A web-based tool for assessing the strength of passwords. It uses a trained Rand
 - predictor.pkl: The serialized pre-trained machine learning model.
 - parseInput.py: Helper script to extract features from passwords.
 - data.csv: The dataset used to train the model.
-- equirements.txt: Project dependencies.
+- 
+equirements.txt: Project dependencies.
 
 ## Prerequisites
 
@@ -30,7 +31,7 @@ A web-based tool for assessing the strength of passwords. It uses a trained Rand
 
 1. Clone the repository.
 2. Install the required dependencies:
- `ash
+ `bash
  pip install -r requirements.txt
  `
 
@@ -38,12 +39,12 @@ A web-based tool for assessing the strength of passwords. It uses a trained Rand
 
 ### Launch the Web App
 Run the application locally:
-`ash
+`bash
 streamlit run streamlit_app.py
 `
 
 ### Train/Retrain the Model (Optional)
 If you have new data and want to retrain the model:
-`ash
+`bash
 python main.py
 `
